@@ -1,0 +1,14 @@
+ INITIALIZE arr[] ={1, 2, 3, 4, 5 }.
+ SET n =3
+ PRINT "Original Array"
+REPEAT STEP 6 UNTIL i<arr.length
+            //for(i=0; i<arr.length; i++)
+PRINT arr[i]
+REPEAT STEP 8 to STEP 12 UNTIL i<n
+            // for(i=0; i<n; i++ )
+DEFINE j, last.
+last = arr[arr.length-1]
+REPEAT STEP 11 UNTIL j>0
+            //for(j= arr.length-1;j>0; j--)
+arr[j]= arr[j-1]
+arr[0]= last
